@@ -1,0 +1,145 @@
+.row h1{
+    font-size: 50px;
+}
+.row h4{
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-variant: small-caps;
+    padding-left: 10px;
+}
+
+sm{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.9;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 50%;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 50%;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .btn-primary{
+    background-color: wheat;
+  }
+  .btn-primary:hover{
+    color: blue;
+    background-color: white;
+  }
+
+  .button{
+    background-color:#a9a9a9;
+    border: darkgray;
+    font-size: medium;
+    font-weight: 500;
+    padding: 6px 15px;
+    border-radius: 5px;
+    color: white;
+  }
+  .button:hover{
+    background-color: #d8d4d4;
+    color: black;
+  }
+
+  ul{
+    background-color: rgb(117, 116, 117);
+    margin: 0 20px 20px;
+    border-radius: 3px;
+  }
+  li{
+    margin: 10px;
+    font-size: large;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+  }
+  li:hover{
+    color: wheat;
+  }
+  .fa-comment-dots{
+    margin-left: auto;
+    margin-top: 10px;
+    
+  }
+  .msg{
+    margin-left: auto;
+    color: white;
+  }
+  .msg:hover{
+    color: wheat;
+  }
+  .fa-phone{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: white;
+  }
+  .fa-phone:hover{
+    color: wheat;
+  }
+
+  .nav a:link{
+    color: wheat;
+  }
+
+  .login{
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    background-color: rgb(106, 194, 252);
+    width: max-content;
+    text-decoration: none;
+  }
+  .login:hover{
+    background-color: rgb(106, 194, 252);
+    color: white;
+    border-radius: 0%;
+    border: 5px bold black;
+    text-decoration: none;
+  }
+
+  .nav a{
+    color: white;
+  }
+  .nav a:hover{
+    color: wheat;
+    text-decoration: none;
+  }
+  .nav li:active{
+    color: wheat;
+  }
+  
