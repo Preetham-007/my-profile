@@ -10,10 +10,26 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="try.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</head>
+  <style>
+      .high{
+        float: right;
+        margin-bottom:30px;
+        margin-right: 10px;
+        border-radius: 50%;
+        border: none;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+      }
+      .high:hover{
+          background-color: rgb(88, 85, 85);
+      }
+  </style>
+</head> 
 <body>
     <div class="container-float bg-dark pt-3 text-white my-2" style="padding-bottom: 10px;">
         <ul class="nav">
@@ -28,15 +44,16 @@
             <a href="#"><i class='fas fa-phone' style='font-size:20px'></i></a>
         </ul>
         <div style="text-align: center;padding-top: 10px;">
-            <h4>Welcome to my</h4>
+            <h4 id="hi">Welcome to my</h4>
             <h1>Illustration Page</h2>
         </div>
     </div>
     <h2 style="text-align: center;font-style: oblique;">Cars and Personalities</h2>
     <div class="container" style="text-align: center;padding-bottom: 10px;">
         <button type="button" id="dark" onclick="dark()">Dark Mode</button>
-    </div>    
-    <div class="container" style="padding-bottom: 20px;">
+        <button onclick="window.print()">Print</button> <!--To print the content in the page-->
+    </div>
+    <div id="contain" class="container" style="padding-bottom: 20px;">
         <div class="row" style="padding-top: 10px;">
             <div class="col-sm-1">
             </div>
@@ -88,7 +105,10 @@
             <div class="col-sm-4">
             </div>
         </div>
-    <h3 style="text-align: center;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Stay tuned for more!</h3>    
     </div> 
+    <div class="container-float">
+        <h3 style="text-align: center;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;padding-right: 5%;">Stay tuned for more!</h3>    
+        <a href="#hi"><button class="high">^</button></a>
+    </div>
 </body>
 </html>
